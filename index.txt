@@ -11,14 +11,8 @@ Show Contacts
 Email
 L.N.DELONG@sms.ed.ac.uk
 
-Phone
-+1 (213) 352-2795
-
-Birthday
-June 23, 1982
-
 Location
-Sacramento, California, USA
+Edinburgh, UK
 
 # navbar
 
