@@ -125,7 +125,10 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a {
+  color: #c9a0e2; /* Lighter shade of purple */
+  text-decoration: none;
+}
 
 li { list-style: none; }
 
