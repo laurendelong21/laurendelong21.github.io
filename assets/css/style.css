@@ -510,7 +510,8 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p { margin-bottom: 15px; 
+  white-space: normal;}
 
 
 
@@ -559,6 +560,9 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 
