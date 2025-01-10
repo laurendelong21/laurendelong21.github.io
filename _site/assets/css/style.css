@@ -513,6 +513,31 @@ main {
 .about-text p { margin-bottom: 15px; 
   white-space: normal;}
 
+/* announcements */
+
+/* Regular unordered list (with bullets) */
+ul.regular-list {
+  list-style-type: disc; /* Restore default bullet points */
+  margin-left: 20px; /* Add space for bullets */
+  padding-left: 20px; /* Indent for bullets */
+  color: var(--light-gray); /* Set the text color */
+}
+
+ul.regular-list li::marker {
+  color: var(--light-gray); /* Set the bullet color to match text */
+  }
+
+/* Ensure bullet color matches text */
+ul.regular-list li::before {
+  content: ''; /* Empty content */
+  display: inline-block; /* Make it inline */
+  width: 10px; /* Width for bullet */
+  height: 10px; /* Height for bullet */
+  background-color: var(--light-gray); /* Match bullet color to text */
+  border-radius: 50%; /* Make it circular */
+  margin-right: 8px; /* Space between bullet and text */
+  vertical-align: middle; /* Align bullet with text */
+}
 
 
 /**
